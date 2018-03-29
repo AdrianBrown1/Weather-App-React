@@ -1,0 +1,43 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+    overflow: none;
+    
+    @include larger-than(mobile){
+      overflow: hidden;
+    }
+  }
+  
+  .form-text__input {
+    max-width: 15rem;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background: none;
+    outline: inherit;
+    color: white; 
+    border: 0.03125rem solid grey;
+    border-radius: 2rem;
+    opacity: 0.6;
+    background-color: darkgrey;
+  
+    &::-webkit-input-placeholder {
+      color: gray;
+    }
+  }
+  
+  .form-text__title {
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; // change this
+    color: white;
+    min-width: 10rem;
+    text-align: center;
+    margin: 3rem 1rem;
+  
+    @include larger-than(mobile) {
+      font-size: 2.5rem;
+    }
+  }
