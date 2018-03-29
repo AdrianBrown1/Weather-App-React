@@ -1,0 +1,9 @@
+.dash-board__container {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    min-width: 100vw;
+    flex-direction: column;
+    background-image: $base-color;
+  };
+  
