@@ -7,6 +7,9 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 What things you need to install the software and how to install them
+```
+node -v 7.10.1
+```
 
 ```
 npm  -v 4.2.0 or greater
@@ -14,11 +17,10 @@ npm  -v 4.2.0 or greater
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
 
 ```
 $ git clone git@github.com:AdrianBrown1/Weather-App-React.git
-$ cd weather-app-reac
+$ cd weather-app-react
 ```
 
 ```
