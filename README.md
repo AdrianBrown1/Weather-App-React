@@ -17,6 +17,11 @@ npm  -v 4.2.0 or greater
 A step by step series of examples that tell you have to get a development env running
 
 ```
+$ git clone git@github.com:AdrianBrown1/Weather-App-React.git
+$ cd weather-app-reac
+```
+
+```
 npm install
 ```
 
@@ -25,6 +30,9 @@ followed by
 ```
 npm start
 ```
+
+* head over to http://localhost:3000/
+*
 
 ## Acknowledgments
 
