@@ -9,7 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 ```
-npm  
+npm  -v 4.2.0 or greater
 ```
 
 ### Installing
@@ -20,13 +20,11 @@ A step by step series of examples that tell you have to get a development env ru
 npm install
 ```
 
+followed by 
+
 ```
 npm start
 ```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
