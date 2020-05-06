@@ -52,7 +52,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -95,5 +96,9 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "homepage": "https://AdrianBrown1.github.io/Weather-App-React",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
